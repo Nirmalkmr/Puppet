@@ -1,0 +1,6 @@
+#Installation of Puppet:
+#Installation steps:
+sudo yum -y install ruby-1.9.2.290
+sudo gem update --system
+sudo gem install --no-rdoc --no-ri facter --version '=1.6.0'
+sudo gem install --no-rdoc --no-ri puppet --version '=2.7.1'
